@@ -154,7 +154,7 @@ let isColombian = True
 
 if (tournamentAge >= 15 && tournamentAge <= 35 && isColombian); {
   console.log("You can participate in the tournament!");
-} else () {
+} else (tournamentAge < 15) {
   console.log("You can't participate in the tournament")
 }
 
