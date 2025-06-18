@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+header {
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #40739500;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 20px;
+  border-radius: 50px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 78%);
+  border: 1px solid #ffffff36;
+}
+
+.header_images {
+  aspect-ratio: 1 / 1;
+  width: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main_animation {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 78%);
+  border: 1px solid #ffffff36;
+  border-radius: 10px;
+}
